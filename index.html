@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form action="contact.php" method="POST">
+
+    <p>
+        <label>Nama</label>
+        <input type="text" name="nama"/>
+    </p>
+    <p>
+        <label>NIM</label>
+        <input type="number" name="NIM"/>
+    </p>
+    <p>
+        <label>Tanggal</label>
+        <input type="date" name="tanggal"/>
+    </p>
+    <p>
+        <label>Alamat</label>
+        <textarea id="alamat" name="alamat" cols="21" rows="5" required></textarea>
+    </p>
+    <input type="submit" value="Simpan">
+    
+    </form>
+
+    <table class="formulir">
+
+        <tr>
+          <td>
+            Nama:
+          </td>
+          <td>
+            <input type="text" name="nama" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            NIM:
+          </td>
+          <td>
+            <input type="number" name="nim" />
+          </td>
+        </tr>
+        
+        <tr>
+            <td>
+              Tanggal :
+            </td>
+            <td>
+              <input type="date" name="tanggal" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              Alamat : 
+            </td>
+            <td>
+              <textarea rows="5" cols="21"></textarea>
+            </td>
+          </tr>
+      </table>
+      <button type="submit" id="submit">Simpan</button>
+ 
+    <h2>Data Mahasiswa</h2>
+    <table cellpadding="10"> 
+        <table class = "data">
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>NIM</th>
+                <th>Alamat</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Jasmin Putri</td>
+                <td>202110370311075</td>
+                <td>Malang</td>
+            </tr>
+    </table>
+  </table>
+
+</body>
+</html>

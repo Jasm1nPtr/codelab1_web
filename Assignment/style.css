@@ -1,0 +1,10 @@
+.formulir td{
+    background-color: white;
+}
+.data{
+    background-color: gold;
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
